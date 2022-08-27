@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		0B9D8EFD28B9FA220002B3D5 /* SwiftUIFontIcon in Frameworks */ = {isa = PBXBuildFile; productRef = 0B9D8EFC28B9FA220002B3D5 /* SwiftUIFontIcon */; };
 		0B9D8EFF28B9FAD20002B3D5 /* TransactionListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9D8EFE28B9FAD20002B3D5 /* TransactionListViewModel.swift */; };
+		0B9D8F0428BA0C810002B3D5 /* RecentTransactionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9D8F0328BA0C810002B3D5 /* RecentTransactionList.swift */; };
+		0B9D8F0628BA83290002B3D5 /* TransactionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9D8F0528BA83290002B3D5 /* TransactionList.swift */; };
 		0BF36B8128A186BF00343AD0 /* ExpenseTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF36B8028A186BF00343AD0 /* ExpenseTrackerApp.swift */; };
 		0BF36B8328A186BF00343AD0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF36B8228A186BF00343AD0 /* ContentView.swift */; };
 		0BF36B8528A186BF00343AD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BF36B8428A186BF00343AD0 /* Assets.xcassets */; };
@@ -21,6 +23,8 @@
 
 /* Begin PBXFileReference section */
 		0B9D8EFE28B9FAD20002B3D5 /* TransactionListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListViewModel.swift; sourceTree = "<group>"; };
+		0B9D8F0328BA0C810002B3D5 /* RecentTransactionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentTransactionList.swift; sourceTree = "<group>"; };
+		0B9D8F0528BA83290002B3D5 /* TransactionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionList.swift; sourceTree = "<group>"; };
 		0BF36B7D28A186BE00343AD0 /* ExpenseTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpenseTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BF36B8028A186BF00343AD0 /* ExpenseTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTrackerApp.swift; sourceTree = "<group>"; };
 		0BF36B8228A186BF00343AD0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -94,6 +98,8 @@
 			isa = PBXGroup;
 			children = (
 				0BF36B8228A186BF00343AD0 /* ContentView.swift */,
+				0B9D8F0528BA83290002B3D5 /* TransactionList.swift */,
+				0B9D8F0328BA0C810002B3D5 /* RecentTransactionList.swift */,
 				0BF36B9428A1A8AF00343AD0 /* TransactionRow.swift */,
 				0BF36B9828A1A8D900343AD0 /* Extentions */,
 			);
@@ -193,6 +199,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0BF36B9328A19C8F00343AD0 /* PreviewData.swift in Sources */,
+				0B9D8F0628BA83290002B3D5 /* TransactionList.swift in Sources */,
+				0B9D8F0428BA0C810002B3D5 /* RecentTransactionList.swift in Sources */,
 				0BF36B9128A19B2C00343AD0 /* TransactionModel.swift in Sources */,
 				0BF36B8328A186BF00343AD0 /* ContentView.swift in Sources */,
 				0BF36B9528A1A8AF00343AD0 /* TransactionRow.swift in Sources */,
