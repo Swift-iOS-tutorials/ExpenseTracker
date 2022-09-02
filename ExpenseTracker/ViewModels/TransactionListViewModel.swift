@@ -7,8 +7,9 @@
 
 import Foundation
 import Combine
+import Collections
 
-typealias TransactionGroup = [String: [Transaction]]
+typealias TransactionGroup = OrderedDictionary<String, [Transaction]>
 
 
 

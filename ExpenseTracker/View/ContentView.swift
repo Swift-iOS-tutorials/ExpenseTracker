@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SwiftUICharts
 
 struct ContentView: View {
     var body: some View {
@@ -16,6 +17,8 @@ struct ContentView: View {
                     Text("Overview")
                         .font(.title2)
                         .bold()
+                    
+                    LineChart()
                     
                     RecentTransactionList()
                 }
@@ -35,6 +38,7 @@ struct ContentView: View {
             }
         }
         .navigationViewStyle(.stack)
+        .accentColor(.primary)
     }
 }
 
